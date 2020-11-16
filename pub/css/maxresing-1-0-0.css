@@ -1,0 +1,204 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* nav */
+
+
+/* main */
+
+.subheading {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* footer */
+
+.footer {
+    background: #000;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer h3 {
+    color: #fff;
+    padding-left: 2rem;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul li {
+    margin-top: 8px;
+}
+
+
+/* images */
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.portrait {
+    border: 4px solid #ddd;
+    height: 140px;
+    width: 140px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+/* colors */
+
+.bg-black {
+    background: #000;
+}
+
+.bg-grey-1 {
+    background: #111;
+}
+
+.bg-grey-2 {
+    background: #222;
+}
+
+.bg-grey-3 {
+    background: #333;
+}
+
+.bg-grey-4 {
+    background: #444;
+}
+
+.bg-grey-5 {
+    background: #555;
+}
+
+.bg-grey-6 {
+    background: #666;
+}
+
+.bg-grey-7 {
+    background: #777;
+}
+
+.bg-grey-8 {
+    background: #888;
+}
+
+.bg-grey-9 {
+    background: #999;
+}
+
+.bg-grey-10 {
+    background: #aaa;
+}
+
+.bg-grey-11 {
+    background: #bbb;
+}
+
+.bg-grey-12 {
+    background: #ccc;
+}
+
+.bg-grey-13 {
+    background: #ddd;
+}
+
+.bg-grey-14 {
+    background: #eee;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.fg-black {
+    color: #000;
+}
+
+.fg-grey-1 {
+    color: #111;
+}
+
+.fg-grey-2 {
+    color: #222;
+}
+
+.fg-grey-3 {
+    color: #333;
+}
+
+.fg-grey-4 {
+    color: #444;
+}
+
+.fg-grey-5 {
+    color: #555;
+}
+
+.fg-grey-6 {
+    color: #666;
+}
+
+.fg-grey-7 {
+    color: #777;
+}
+
+.fg-grey-8 {
+    color: #888;
+}
+
+.fg-grey-9 {
+    color: #999;
+}
+
+.fg-grey-10 {
+    color: #aaa;
+}
+
+.fg-grey-11 {
+    color: #bbb;
+}
+
+.fg-grey-12 {
+    color: #ccc;
+}
+
+.fg-grey-13 {
+    color: #ddd;
+}
+
+.fg-grey-14 {
+    color: #eee;
+}
+
+.fg-white {
+    color: #fff;
+}
+
+
+/* projects.html */
+
+.box {
+    border-radius: 8px;
+    margin: 1em;
+    padding: 12px;
+}
+
