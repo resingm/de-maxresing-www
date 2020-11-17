@@ -9,11 +9,6 @@ html {
 
 /* main */
 
-.subheading {
-    font-size: 13px;
-    font-weight: 600;
-}
-
 
 /* footer */
 
@@ -44,6 +39,18 @@ html {
 .footer ul li {
     margin-top: 8px;
 }
+
+/* text */
+
+.centered {
+    text-align: center
+}
+
+.subheading {
+    font-size: 13px;
+    font-weight: 600;
+}
+
 
 
 /* images */
