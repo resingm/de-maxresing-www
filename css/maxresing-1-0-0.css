@@ -1,8 +1,17 @@
+/* Copyright 2020 Max Resing; MIT licensed */
 
 html {
     position: relative;
     min-height: 100%;
 }
+
+
+/* layout */
+
+.row {
+    margin: 1% 0 0 0;
+}
+
 
 /* nav */
 
