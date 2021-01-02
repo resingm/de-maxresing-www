@@ -23,6 +23,7 @@ TEMPLATE = "./template.html"
 INPUT = "./input"
 OUTPUT = "./dist"
 EXTENSIONS = [".html", ".ico"]
+HTML = ".html"
 
 
 def _read(path: str) -> str:
@@ -70,14 +71,21 @@ def main():
     r = pystache.Renderer(escape=lambda x: x)
 
     print("Generating files...")
-    for f in fs:
+    # Render html
+    for f in filter(lambda x: x.endswith(HTML), fs):
         _f = f.split("/")[-1]
-        title = _f.replace(EXTENSION, "")
+        title = _f.replace(HTML, "")
         page = _read(f)
 
         output = r.render(template, title=title, page=page)
         _write(f"{OUTPUT}/{_f}", output)
         print(f"Rendered {OUTPUT}/{_f}")
+
+    # Copy non-html
+    for f in filter(lambda x: not x.endswith(HTML), fs):
+        _f = f.split("/")[-1]
+        _write(f"{OUTPUT}/{_f}", f)
+        print(f"Added {OUTPUT}/{_f}")
 
     print("Generated files.")
     sys.exit(0)
