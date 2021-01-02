@@ -12,6 +12,8 @@ import logging
 import os
 import sys
 
+from shutil import copyfile
+
 # third party
 import pystache
 
@@ -84,7 +86,7 @@ def main():
     # Copy non-html
     for f in filter(lambda x: not x.endswith(HTML), fs):
         _f = f.split("/")[-1]
-        _write(f"{OUTPUT}/{_f}", f)
+        copyfile(f, f"{OUTPUT}/{_f}")
         print(f"Added {OUTPUT}/{_f}")
 
     print("Generated files.")
