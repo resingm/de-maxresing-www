@@ -22,7 +22,7 @@ TEMPLATE = "./template.html"
 
 INPUT = "./input"
 OUTPUT = "./dist"
-EXTENSION = ".html"
+EXTENSIONS = [".html", ".ico"]
 
 
 def _read(path: str) -> str:
@@ -50,7 +50,10 @@ def main():
     # Prepare file list
     print(f"Scan input directory {INPUT}")
 
-    fs = [f"{INPUT}/{f}" for f in os.listdir(INPUT) if f.endswith(EXTENSION)]
+    fs = []
+    for ext in EXTENSIONS:
+        fs += [f"{INPUT}/{f}" for f in os.listdir(INPUT) if f.endswith(ext)]
+
     print(f"Found {len(fs)} files.")
 
     # Load template
