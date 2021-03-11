@@ -1,0 +1,16 @@
+
+/* images */
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.portrait {
+  border: 4px solid #ddd;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
