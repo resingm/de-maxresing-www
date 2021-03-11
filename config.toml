@@ -1,0 +1,10 @@
+
+input = "./content"
+static = "./static"
+output = "./site"
+
+[template]
+
+base = "./layout/base.html"
+header = "./layout/header.html"
+
