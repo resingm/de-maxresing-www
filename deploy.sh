@@ -17,7 +17,7 @@ git commit -m "$deploy_msg"
 git push
 
 echo Copying files to $srv...
-scp $dist $srv:$dir
+scp -r $dist $srv:$dir
 
 echo Copied ${#dist[@]} files sucessfully.
 
