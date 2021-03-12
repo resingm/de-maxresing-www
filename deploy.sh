@@ -9,7 +9,7 @@ dist="./site/*"
 
 
 echo "Generating new content..."
-./generate.py
+./makesite.py
 
 echo Commit "$deploy_msg"
 git add .
