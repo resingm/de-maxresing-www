@@ -5,7 +5,9 @@
 
 <img class="portrait rounded-circle" src="https://static.maxresing.de/img/portrait00.png" focusable="false" width="180" />
 
-<br>
+<h1 class="tc">Max Resing</h1>
+
+***
 
 My name is Max Resing. I am a full-time computer-science student, a full-stack
 developer in part-time, an enthusiast of open-source software and a passionate
