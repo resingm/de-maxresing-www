@@ -14,7 +14,7 @@ my projects.
 
 The site was generated with a simple python script, which I wrote myself. The
 code of the website, as well as the generation script `makesite.py` can be found
-on [codeberg](https://codeberg.org/rem/de-maxresing-www).
+on [Codeberg](https://codeberg.org/rem/de-maxresing-www).
 
 The site templates mimic the [mustache syntax](https://mustache.github.io/mustache.5.html).
 The content is preprocess markdown. The preprocessor ensures additional features
