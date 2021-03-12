@@ -20,7 +20,7 @@ Raspberry Pis which run my personal projects and services.
 
 **Launched service to host documentation**
 
-*2020-12-03* Since a while I planned to host a service which it's sole purpose
+*2020-12-03* Since a while I planned to host a service which its sole purpose
 is to serve documentation. Apparently, it took me longer than expected, because
 I started over and over again. I simply could not commit myself to a fixed set
 of features.

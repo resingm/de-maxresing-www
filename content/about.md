@@ -17,13 +17,13 @@ code of the website, as well as the generation script `makesite.py` can be found
 on [Codeberg](https://codeberg.org/rem/de-maxresing-www).
 
 The site templates mimic the [mustache syntax](https://mustache.github.io/mustache.5.html).
-The content is preprocess markdown. The preprocessor ensures additional features
-to render the pages as I want them to be rendered.
+The content is preprocessed markdown. The preprocessor ensures additional
+features to render the pages as I want them to be rendered.
 
 
 ## About your privacy
 
-The service does not log any PII (personally identifyable information). The
+The service does not log any PII (personally identifiable information). The
 website is hosted on a [Caddy](https://caddyserver.com/) instance, which is
 configured to not store any IP addresses or other personal information.
 

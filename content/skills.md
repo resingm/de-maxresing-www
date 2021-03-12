@@ -12,7 +12,7 @@ himself new things every single day.
 I decided to exclude technology, that I take for granted. This includes but is 
 not limited to HTML, CSS, SQL, programming paradigms as OOP, FP, basics of
 system administration & networking, common protocols, operating systems, user &
-permission management, ...
+permission management,...
 
 !> header.end
 
@@ -20,7 +20,7 @@ permission management, ...
 # Languages
 
 * **German:** Mother tongue
-* **English:** B2, IELTS Certificate, academic English; Spend 8 months in Dublin, Ireland.
+* **English:** B2, IELTS Certificate, academic English; spend 8 months in Dublin, Ireland.
 
 # Programming languages
 
@@ -32,7 +32,7 @@ permission management, ...
 
 ### Currently learning
 
-* **Go:** Currently teaching myself this language; Useful for part-time job.
+* **Go:** Currently teaching myself this language; useful for my part-time job.
 * **C/C++:** Design project at the end of my Bachelor's is based on C++.
 * **Rust:** Rudimentary knowledge, still a language that I want to learn by heart
 
@@ -47,11 +47,11 @@ permission management, ...
 
 # Technology
 
-* **Linux:** Passionately use it since 2012. Familiar with system administration and command line. Admin of home lab which grows in complexity. Alpine, Arch, Ubuntu, Debian, OpenWRT.
-* **PostgreSQL:** Required for job, side projects & university projects; Prefered relational DBMS; Hosted a shared PostgreSQL service for multiple students in the past.
+* **Linux:** Passionately use it since 2012. Familiar with system administration and command line. Admin of a home lab which grows in complexity. Alpine, Arch, Ubuntu, Debian, OpenWRT.
+* **PostgreSQL:** Required for my job, side projects & university projects; Preferred relational DBMS; hosted a shared PostgreSQL service for multiple students in the past.
 * **Redis:** Familiar with the basic concept due to side projects.
 * **Nginx & Caddy:** Running both web servers in production as well in container environment.
 * **Docker:** Containerization technology that is required at work. Used in home lab in the past.
-* **Podman:** Containerization technology of home lab.
+* **Podman:** Containerization technology of my home lab.
 * **VueJS:** Familiar due to my job and some university projects. Frontend framework of choice.
 * **MQTT:** Familiar with the MQTT protocol, Eclipse Mosquitto & multiple frameworks for Python
