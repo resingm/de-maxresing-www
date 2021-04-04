@@ -28,7 +28,7 @@ I started over and over again. I simply could not commit myself to a fixed set
 of features.
 
 After all, I decided to skip any interactive features and move on with the 
-next project. You can find the service on [resing.dev](https://www.resing.dev)
+next project. You can find the service on [resing.dev](https://resing.dev)
 
 ***
 
