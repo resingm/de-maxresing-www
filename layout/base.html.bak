@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ title }} - {{ subtitle }}</title>
   <link rel="shortcut icon" href="{{ "img/favicon.ico"|url }}">
   <link rel="stylesheet" href="https://www.maxresing.de/css/min-1-5-0.css">
@@ -11,14 +11,32 @@
 </head>
 
 <body>
-  <nav class="nav" tabindex="-1" onclick="this.focus()">
-    <div class="container">
-        <a class="pagename" href="https://www.maxresing.de">maxresing.de</a>
+  <!--
+  <nav class="nav">
+    <div class="nav-left">
+      <div class="pagename mh">
+        <a href="https://www.maxresing.de">maxresing.de</a>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <div class="container">
         <a href="https://www.maxresing.de/skills.html">Knowledge & Technology</a>
         <a href="https://www.maxresing.de/projects.html">Projects</a>
         <a href="https://www.maxresing.de/about.html">About</a>
+      </div>
     </div>
   </nav>
+  -->
+
+  <nav class="nav" tabindex="-1" onclick="this.focus()">
+    <div class="container">
+      <a class="nav-left pagename mh" href="#">maxresing.de</a>
+      <a class="nav-right" href="#">maxresing.de</a>
+      <a class="nav-right" href="#">maxresing.de</a>
+    </div>
+  </nav>
+  <button class="btn-close btn btn-sm">x</button>
 
   {{ header }}
 
