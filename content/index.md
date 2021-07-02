@@ -20,6 +20,19 @@ Raspberry Pis which run my personal projects and services.
 
 ***
 
+**Bachelor Thesis awarded as Best Paper**
+
+*2021-07-02* Recently, I finished my Bachelor Thesis and presented it on the 
+[35th Twente Student Conference on IT](https://sites.google.com/utwente.nl/tscit35/homepage).
+I am proud to announce that my paper was rewarded with the Best Paper Award and
+thus, it was presented to the greater audience during the plenary session.
+The paper analysed internet scanning activity to provide evidence that certain
+scanners will not show up in honeypot logs if the entire sensor infrastructure is
+purely operated in the cloud.
+
+
+***
+
 **Launched service to host documentation**
 
 *2020-12-03* Since a while I planned to host a service which its sole purpose
