@@ -28,7 +28,7 @@ I am proud to announce that my paper was rewarded with the Best Paper Award and
 thus, it was presented to the greater audience during the plenary session.
 The paper analysed internet scanning activity to provide evidence that certain
 scanners will not show up in honeypot logs if the entire sensor infrastructure is
-purely operated in the cloud.
+purely operated in the cloud. A link to the paper will be provided soon (approx. July 25).
 
 ***
 
