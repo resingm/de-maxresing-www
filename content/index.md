@@ -30,18 +30,14 @@ The paper analysed internet scanning activity to provide evidence that certain
 scanners will not show up in honeypot logs if the entire sensor infrastructure is
 purely operated in the cloud.
 
-
 ***
 
-**Launched service to host documentation**
+**Stopped service for documentation**
 
-*2020-12-03* Since a while I planned to host a service which its sole purpose
-is to serve documentation. Apparently, it took me longer than expected, because
-I started over and over again. I simply could not commit myself to a fixed set
-of features.
-
-After all, I decided to skip any interactive features and move on with the 
-next project. You can find the service on [resing.dev](https://resing.dev)
+*2021-05-01* Recently, the domain name of resing.dev expired, and I do not intend
+to extend it. Thus, the service for my documentation is put offline. Instead, I will
+likely launch the service under a subdomain of [maxresing.de](https://www.maxresing.de).
+Expect an update anytime soon.
 
 ***
 
