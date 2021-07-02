@@ -20,7 +20,7 @@ Raspberry Pis which run my personal projects and services.
 
 ***
 
-**Bachelor Thesis awarded as Best Paper**
+**Bachelor Thesis received Best Paper Award**
 
 *2021-07-02* Recently, I finished my Bachelor Thesis and presented it on the 
 [35th Twente Student Conference on IT](https://sites.google.com/utwente.nl/tscit35/homepage).
