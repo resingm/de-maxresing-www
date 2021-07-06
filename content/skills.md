@@ -26,7 +26,7 @@ permission management,...
 
 * **Python:** Since 2017, backend services, stand-alone services, side projects, university projects.
 * **Java:** Since 2011, first programming language, university projects, side projects.
-* **JavaScript:** Since 2018, mostly for university projects and part-time job. Just used for web frontends.
+* **JavaScript:** Since 2018, mostly for university projects and part-time job. No backend experience with JS.
 * **Bash/Shell:** Since 2015, familiar with scripting to automate recurring tasks.
 
 
@@ -53,5 +53,6 @@ permission management,...
 * **Nginx & Caddy:** Running both web servers in production as well in container environment.
 * **Docker:** Containerization technology that is required at work. Used in home lab in the past.
 * **Podman:** Containerization technology of my home lab.
-* **VueJS:** Familiar due to my job and some university projects. Frontend framework of choice.
+* **VueJS:** Familiar due to my job and some university projects.
+* **EmberJS:** Familiar due to a side-project. Depending on the project requirements, the preferred choice over VueJS.
 * **MQTT:** Familiar with the MQTT protocol, Eclipse Mosquitto & multiple frameworks for Python
