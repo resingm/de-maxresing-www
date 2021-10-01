@@ -3,28 +3,28 @@
 deploy_msg='automatic deployment'
 
 srv=${1:-remote.maxresing.de}
-dir=${2:-/var/www/www.maxresing.de/html}
+dir=${2:-/var/www/www.maxresing.de/html/}
 
 dist="./site/*"
 
 
-echo "Generating new content..."
-./makesite.py
+echo "Generating page and content..."
+./makesite.py &> /dev/null
+echo "Page generation finished."
 
 echo "Commit '$deploy_msg'"
 git add .
 git commit -m "$deploy_msg"
 git push
 
-#ssh rm -rf /var/www/www.maxresing.de/html/
-#echo "Removed existing files."
+ssh rm -rf ${dir}
+echo "Removed existing files in ${dir}."
 
-echo "Copying files to $srv..."
-scp -r $dist $srv:$dir &> /dev/null
-echo ""
+echo "Copying files to ${srv}:${dir}"
+scp -r $dist ${srv}:${dir} &> /dev/null
+echo "Copied ${#dist[@]} files."
 
-echo "Copied ${#dist[@]} files sucessfully."
-
-echo "Change owner to caddy"
+ssh chown -R max:caddy ${dir}
+echo "Changed ownership."
 
 exit 0
