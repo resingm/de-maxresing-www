@@ -6,7 +6,7 @@
 <img class="portrait rounded-circle" src="https://www.maxresing.de/img/portrait00.png" focusable="false" width="180" />
 
 <h1 class="tc">Max Resing</h1>
-<h5 class="tc">contact (at) maxresing.de</h5>
+<h5 class="tc">Mail: contact (at) maxresing.de</h5>
 
 ***
 
@@ -18,6 +18,22 @@ Raspberry Pis which run my personal projects and services.
 !>header.end
 
 # Announcements
+
+***
+
+**Facing a new challenge**
+
+*2021-09-30* After more than a year working as a full-stack developer at
+<a href="https://www.extendas.com/">Extendas</a> I decided to face a new
+challenge. At Extendas, I was working on a cloud solution to centrally monitor
+peripherals and hardware of a customer's site. This innovative approach aims to
+speed up the service processes of gas stations and washing streets. After
+deploying the first version as a pilot I decided to move on and search for a new
+challenge.
+During the summer break, I was asked to work on a project to evaluate the health
+of DNSSEC compliant records within two TLDs of Europe. The project team is part
+of DACS at the University of Twente.
+
 
 ***
 
@@ -43,14 +59,4 @@ likely launch the service under a subdomain of [maxresing.de](https://www.maxres
 Expect an update anytime soon.
 
 ***
-
-**Bye-bye GitLab, G'day Codeberg**
-
-*2020-11-26* Recently, I decided to leave [GitLab](https://gitlab.com) and 
-started to move to the more independent alternative [Codeberg](https://codeberg.org).
-Similar to GitHub and GitLab is also Codeberg a code collaboration platform.
-It is based on [Gitea](https://gitea.io/en-us/).
-
-New repositories will always be created on Codeberg. Existing repositories
-will be transferred in the long run.
 
