@@ -17,14 +17,14 @@ git add .
 git commit -m "$deploy_msg"
 git push
 
-ssh rm -rf ${dir}
+ssh ${srv} rm -rf ${dir}
 echo "Removed existing files in ${dir}."
 
 echo "Copying files to ${srv}:${dir}"
-scp -r $dist ${srv}:${dir} &> /dev/null
+scp ${srv} -r $dist ${srv}:${dir} &> /dev/null
 echo "Copied ${#dist[@]} files."
 
-ssh chown -R max:caddy ${dir}
+ssh ${srv} chown -R max:caddy ${dir}
 echo "Changed ownership."
 
 exit 0
