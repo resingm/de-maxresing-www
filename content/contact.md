@@ -1,6 +1,6 @@
 <!-- title: maxresing.de -->
 <!-- subtitle: Contact -->
-<!-- header.subtitle: max.resing (at) protonmail.com -->
+<!-- header.subtitle: contact (at) maxresing.de -->
 
 !> header.start
 
