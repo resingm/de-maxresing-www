@@ -10,10 +10,11 @@
 
 ***
 
-My name is Max Resing. I am a full-time computer-science student, a full-stack
-developer in part-time, an enthusiast of open-source software and a passionate
-system administrator of my humble home lab. My home lab is a stack of four
-Raspberry Pis which run my personal projects and services.
+My name is Max Resing. I am a full-time computer-science student, a former
+full-stack developer and a current DevOps engineer in part-time, an enthusiast
+of open-source software and a passionate Linux system administrator of a humble
+home lab. My home lab is a stack of four Raspberry Pis which run my personal
+projects and services.
 
 !>header.end
 
