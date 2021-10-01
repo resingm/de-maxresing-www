@@ -6,7 +6,7 @@
 <img class="portrait rounded-circle" src="https://www.maxresing.de/img/portrait00.png" focusable="false" width="180" />
 
 <h1 class="tc">Max Resing</h1>
-<h3 class="tc">contact (at) maxresing.de</h3>
+<h5 class="tc">contact (at) maxresing.de</h5>
 
 ***
 
