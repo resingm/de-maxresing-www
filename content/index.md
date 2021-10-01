@@ -21,7 +21,7 @@ Raspberry Pis which run my personal projects and services.
 
 ***
 
-**Facing a new challenge**
+**Facing a new challenge as a DevOps engineer**
 
 *2021-09-30* After more than a year working as a full-stack developer at
 <a href="https://www.extendas.com/">Extendas</a> I decided to face a new
@@ -32,7 +32,8 @@ deploying the first version as a pilot I decided to move on and search for a new
 challenge.
 During the summer break, I was asked to work on a project to evaluate the health
 of DNSSEC compliant records within two TLDs of Europe. The project team is part
-of DACS at the University of Twente.
+of DACS at the University of Twente. After the summer break, I was asked to
+continue my work on this project. My role is that of a DevOps engineer.
 
 
 ***
