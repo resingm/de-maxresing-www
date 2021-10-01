@@ -32,9 +32,8 @@ permission management,...
 
 ### Currently learning
 
-* **Go:** Currently teaching myself this language; useful for my part-time job.
 * **C/C++:** Design project at the end of my Bachelor's is based on C++.
-* **Rust:** Rudimentary knowledge, still a language that I want to learn by heart
+* **Rust:** Rudimentary knowledge, still a language that I want to learn by heart.
 
 
 ### Used in the past
@@ -48,6 +47,7 @@ permission management,...
 # Technology
 
 * **Linux:** Passionately use it since 2012. Familiar with system administration and command line. Admin of a home lab which grows in complexity. Alpine, Arch, Ubuntu, Debian, OpenWRT.
+* **syslog-ng:** Centralized logging in my home-lab with syslog-ng. Logs integrated in a self-implemented dashboard.
 * **PostgreSQL:** Required for my job, side projects & university projects; Preferred relational DBMS; hosted a shared PostgreSQL service for multiple students in the past.
 * **Redis:** Familiar with the basic concept due to side projects.
 * **Nginx & Caddy:** Running both web servers in production as well in container environment.
