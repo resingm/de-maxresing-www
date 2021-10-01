@@ -48,11 +48,11 @@ permission management,...
 
 * **Linux:** Passionately use it since 2012. Familiar with system administration and command line. Admin of a home lab which grows in complexity. Alpine, Arch, Ubuntu, Debian, OpenWRT.
 * **syslog-ng:** Centralized logging in my home-lab with syslog-ng. Logs integrated in a self-implemented dashboard.
+* **Apache Spark:** Required for my job, mostly used to run queries on the <a href="https://openintel.nl/">OpenINTEL</a> cluster. Set up a cluster for my personal usage in the past.
 * **PostgreSQL:** Required for my job, side projects & university projects; Preferred relational DBMS; hosted a shared PostgreSQL service for multiple students in the past.
 * **Redis:** Familiar with the basic concept due to side projects.
-* **Nginx & Caddy:** Running both web servers in production as well in container environment.
-* **Docker:** Containerization technology that is required at work. Used in home lab in the past.
-* **Podman:** Containerization technology of my home lab.
-* **VueJS:** Familiar due to my job and some university projects.
+* **Nginx & Caddy:** Running both web servers in production as well as in container environment.
+* **Docker and Podman:** Used both in the past for a while. Personal preference is Podman. Furthermore, knowledge with closely related technology, such as docker-compose.
+* **VueJS:** Used in university projects and in a large software project at my former employee Extendas.
 * **EmberJS:** Familiar due to a side-project. Depending on the project requirements, the preferred choice over VueJS.
 * **MQTT:** Familiar with the MQTT protocol, Eclipse Mosquitto & multiple frameworks for Python
