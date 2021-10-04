@@ -23,7 +23,7 @@ ssh ${srv} rm -rf ${dir}
 echo "Removed existing files in ${dir}."
 
 echo "Copying files to ${srv}:${dir}"
-scp ${srv} -r $dist ${srv}:${dir} &> /dev/null
+scp -r ${dist} ${srv}:${dir} &> /dev/null
 echo "Copied ${#dist[@]} files."
 
 ssh ${srv} chown -R max:caddy ${dir}
