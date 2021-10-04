@@ -11,7 +11,7 @@ dist="./site/*"
 
 echo "Generating page and content..."
 ./makesite.py &> /dev/null
-cp -u ${static} ${dist}
+cp -ru ${static} ${dist}
 echo "Page generation finished."
 
 echo "Commit '$deploy_msg'"
