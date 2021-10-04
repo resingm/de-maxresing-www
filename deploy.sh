@@ -5,11 +5,13 @@ deploy_msg='automatic deployment'
 srv=${1:-remote.maxresing.de}
 dir=${2:-/var/www/www.maxresing.de/html/}
 
+static="./static/*"
 dist="./site/*"
 
 
 echo "Generating page and content..."
 ./makesite.py &> /dev/null
+cp -u ${static} ${dist}
 echo "Page generation finished."
 
 echo "Commit '$deploy_msg'"
