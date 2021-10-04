@@ -5,7 +5,7 @@ deploy_msg='automatic deployment'
 srv=${1:-remote.maxresing.de}
 dir=${2:-/var/www/www.maxresing.de/html/}
 
-static="./static/*"
+static="./static/"
 dist="./site/*"
 
 
