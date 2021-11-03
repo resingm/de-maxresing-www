@@ -24,8 +24,8 @@ Configuration has to be kept simple and maintainable.
 
 
 **Navigation:**
-[Web (offline)](https://www.maxresing.de/#),
-[Code](https://codeberg.org/resingm/yacf),
+[Web (offline)](https://www.maxresing.de/projects.html#),
+[Code](https://github.com/resingm/yacf),
 [Package](https://pypi.org/project/yacf/)
 
 
@@ -62,7 +62,7 @@ Feel free to contact me, if you want to host your own documentation here as well
 In the future, I might extend this service with some deployment pipelines.
 
 **Navigation:**
-[Web (offline)](https://resing.dev)
+[Web (offline)](https://www.maxresing.de/projects.html#)
 
 
 ***
