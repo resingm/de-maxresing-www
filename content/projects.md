@@ -5,10 +5,10 @@
 
 !> header.start
 
-Here you can see a very brief selection of the projects I have worked on. Of
-course, this is just the tip of the iceberg. If you look for all my 
-contributions, I refer to my [Codeberg](https://codeberg.org/rem), [GitHub](https://github.com/resingm)
-and [GitLab](https://gitlab.com/mresing) repositories.
+Here you can see a very brief selection of the projects I have worked on.
+Of course, this is just the tip of the iceberg. If you look for all my
+contributions, I refer to my [Codeberg](https://codeberg.org/resingm)
+and [GitHub](https://github.com/resingm) repositories.
 
 !> header.end
 
@@ -24,8 +24,8 @@ Configuration has to be kept simple and maintainable.
 
 
 **Navigation:**
-[Web](https://resing.dev/yacf),
-[Code](https://codeberg.org/rem/yacf),
+[Web (offline)](https://www.maxresing.de/#),
+[Code](https://codeberg.org/resingm/yacf),
 [Package](https://pypi.org/project/yacf/)
 
 
@@ -56,13 +56,13 @@ I decided to host a dedicated service for the documentation of my projects.
 
 [resing.dev](https://resing.dev) hosts statically generated pages. The docs of
 my own projects were generated with [MkDocs](https://www.mkdocs.org/). The theme
-is the self-written [mkdocs-boring-theme](https://resing.dev/mkdocs-boring-theme).
+is the self-written [mkdocs-boring-theme (offline)](https://resing.dev/mkdocs-boring-theme).
 
 Feel free to contact me, if you want to host your own documentation here as well.
 In the future, I might extend this service with some deployment pipelines.
 
 **Navigation:**
-[Web](https://resing.dev)
+[Web (offline)](https://resing.dev)
 
 
 ***
