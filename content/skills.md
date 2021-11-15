@@ -48,7 +48,7 @@ permission management,...
 
 * **Linux:** Passionately use it since 2012. Familiar with system administration and command line. Admin of a home lab which grows in complexity. Alpine, Arch, Ubuntu, Debian, OpenWRT.
 * **syslog-ng:** Centralized logging in my home-lab with syslog-ng. Logs integrated in a self-implemented dashboard.
-* **Apache Spark:** Required for my job, mostly used to run queries on the <a href="https://openintel.nl/">OpenINTEL</a> cluster. Set up a cluster for my personal usage in the past.
+* **Apache Spark:** Required for my job, mostly used to run queries and aggregate data on the <a href="https://openintel.nl/">OpenINTEL</a> cluster. Set up a cluster for my personal usage in the past.
 * **PostgreSQL:** Required for my job, side projects & university projects; Preferred relational DBMS; hosted a shared PostgreSQL service for multiple students in the past.
 * **Redis:** Familiar with the basic concept due to side projects.
 * **Nginx & Caddy:** Running both web servers in production as well as in container environment.
