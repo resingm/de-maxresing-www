@@ -32,8 +32,9 @@ guidance through my shepherd, my talk was accepted, and I was invited to
 talk at the next NANOG conference, [NANOG83](https://www.nanog.org/events/nanog-83/).
 
 It was a great experience to talk at NANOG, to present my work and to
-get some responses from people much deeper in this field. Furthermore, I
-enjoyed the other fascinating talks. Check out the recording of my talk:
+get some responses from people who work and research for much longer in
+this domain. Furthermore, I enjoyed the other fascinating talks. Check
+out the recording of my talk:
 [Should Network Operators Hop on the Data Plane? Max Resing, NANOG83](https://www.nanog.org/news-stories/nanog-tv/nanog-83-webcast/should-network-operators-hop-on-the-data-plane)
 
 
