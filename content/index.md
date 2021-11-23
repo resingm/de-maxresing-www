@@ -28,7 +28,7 @@ projects and services. It is complemented with two VPS in the cloud.
 *2021-11-01 - 2021-11-03* After my bachelor's thesis was published, I
 was contacted and asked whether I could consider submitting this topic
 to NANOG, the North American Network Operators' Group. With a bit of
-guidance through my shepherd, my talk was accepted and I was invited to
+guidance through my shepherd, my talk was accepted, and I was invited to
 talk at the next NANOG conference, [NANOG83](https://www.nanog.org/events/nanog-83/).
 
 It was a great experience to talk at NANOG, to present my work and to
