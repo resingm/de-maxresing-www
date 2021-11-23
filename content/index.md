@@ -35,7 +35,7 @@ It was a great experience to talk at NANOG, to present my work and to
 get some responses from people who work and research for much longer in
 this domain. Furthermore, I enjoyed the other fascinating talks. Check
 out the recording of my talk:
-["Should Network Operators Hop on the Data Plane?" - NANOG83](https://www.nanog.org/news-stories/nanog-tv/nanog-83-webcast/should-network-operators-hop-on-the-data-plane)
+[Should Network Operators Hop on the Data Plane? - NANOG83](https://www.nanog.org/news-stories/nanog-tv/nanog-83-webcast/should-network-operators-hop-on-the-data-plane)
 
 
 
