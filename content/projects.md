@@ -12,19 +12,40 @@ and [GitHub](https://github.com/resingm) repositories.
 
 !> header.end
 
+
+# DNS Resilience Dashboard
+
+My current professional involvement is at my University, supporting the
+team of the [OpenINTEL](https://openintel.nl). Based on the OpenINTEL
+platform, we provide a daily analysis of the DNSSEC landscape in the two
+ccTLDs `.ch.` and `.li.`. The Swiss NREN [SWITCH](https://www.switch.ch/en/)
+has requested the product and links it to a financial incentive. Since
+the start of the project in Summer 2021, the DNSSEC deployment has grown
+from under 10% to [36% in April 2022](https://www.nic.ch/statistics/dnssec/).
+
+My involvement in this project includes the data analysis and export as
+well as the back- and front-end implementation, deployment and operation
+of the DNS resilience dashboard.
+
+**Navigation:**
+[DNS Resilience Dashboard](https://dns-resilience.openintel.nl)
+
+
+***
+
+
 # yacf - Yet Another Configuration Framework
 
-With advancing Python projects, I realized I tend to parse configuration files
-similarly in all projects I have worked on. Thus, I decided to abstract the
-logic and wrap it into a package.
+With advancing Python projects, I realized I tend to parse configuration
+files similarly in all projects I have worked on. Thus, I decided to
+abstract the logic and wrap it into a package.
 
-*yacf* is a very lightweight and slim configuration framework with very limited
-features. It aims to not end up as a bloated and convoluted framework.
-Configuration has to be kept simple and maintainable.
+*yacf* is a very lightweight and slim configuration framework with very
+limited features. It aims to not end up as a bloated and convoluted
+framework. Configuration has to be kept simple and maintainable.
 
 
 **Navigation:**
-[Web (offline)](https://www.maxresing.de/projects.html#),
 [Code](https://github.com/resingm/yacf),
 [Package](https://pypi.org/project/yacf/)
 
@@ -44,25 +65,6 @@ point. These days, the service is running on [Nginx](https://www.nginx.com).
 
 **Navigation:**
 [Web](https://static.maxresing.de)
-
-
-***
-
-
-# Documentation: resing.dev
-
-Running some servers at home allows me to host my own services. At some point
-I decided to host a dedicated service for the documentation of my projects.
-
-[resing.dev](https://resing.dev) hosts statically generated pages. The docs of
-my own projects were generated with [MkDocs](https://www.mkdocs.org/). The theme
-is the self-written [mkdocs-boring-theme (offline)](https://resing.dev/mkdocs-boring-theme).
-
-Feel free to contact me, if you want to host your own documentation here as well.
-In the future, I might extend this service with some deployment pipelines.
-
-**Navigation:**
-[Web (offline)](https://www.maxresing.de/projects.html#)
 
 
 ***
