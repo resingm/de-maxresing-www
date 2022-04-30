@@ -20,7 +20,7 @@ permission management,...
 # Languages
 
 * **German:** Mother tongue
-* **English:** B2, IELTS Certificate, academic English. Talking and writing it daily since years.
+* **English:** B2, IELTS Certificate, academic English. Talking and writing it daily for years.
 
 
 # Programming languages
@@ -49,7 +49,7 @@ permission management,...
 
 * **Linux:** Passionately use it since 2012 as my daily driver and on my servers. Familiar with system administration and command line. Admin of a home lab which grows in complexity. Alpine, Arch, Debian(-based distributions), OpenWRT.
 * **Networking & Internet Protocols:** My great interest in networking and the Internet has taught me understanding of plenty of protocols over the years.
-* **System & Network Administration:** While operating Linux servers since around a decade now, I have explored several OS- and network configurations. Furthermore, I am familiar with the typical network services and with network debugging.
+* **System & Network Administration:** While operating Linux servers for around a decade now, I have explored several OS- and network configurations. Furthermore, I am familiar with the typical network services and with network debugging.
 * **Apache Spark:** Required for my job, mostly used to run queries and aggregate data on the <a href="https://openintel.nl/">OpenINTEL</a> cluster. Set up a cluster for my personal usage in the past.
 * **PostgreSQL:** Required for my job, side projects & university projects; Preferred relational DBMS; hosted a shared PostgreSQL service for multiple students in the past.
 * **Redis:** Familiar with the basic concept due to university and side projects.
