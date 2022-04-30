@@ -8,7 +8,6 @@ from datetime import datetime
 import logging
 import os
 import shutil
-import sys
 
 from markdown2 import markdown as md
 
