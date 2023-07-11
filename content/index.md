@@ -1,7 +1,7 @@
 <!-- title: maxresing.de -->
 <!-- subtitle: Home -->
 
-!>header.start
+{::header}
 
 <img class="portrait rounded-circle" src="https://www.maxresing.de/img/portrait00.png" focusable="false" width="180" />
 
@@ -21,7 +21,7 @@ deployment in the TLDs of Switzerland and Liechtenstein.
 Next to my study and professional involvement, I like extending my own
 home lab in which I develop and operate my own project ideas.
 
-!>header.end
+{:/header}
 
 # Announcements
 
