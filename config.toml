@@ -1,0 +1,39 @@
+baseURL = "https://www.maxresing.de/"
+languageCode = "en-us"
+title = "Max Resing"
+
+[params]
+author = "Max Resing"
+description = "Personal homepage, portfolio and blog of Max Resing"
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "maxresing.de"
+url = "/"
+weight = 1
+params.pagename = true
+
+[[menu.main]]
+identifier="blog"
+name = "Blog"
+url = "/blog/"
+weight = 2
+
+[[menu.main]]
+identifier="skills"
+name = "Knowledge & Technology"
+url = "/skills/"
+weight = 3
+
+[[menu.main]]
+identifier="about"
+name = "About"
+url = "/about/"
+weight = 4
+
+[[menu.main]]
+identifier="contact"
+name = "Contact"
+url = "/contact/"
+weight = 5

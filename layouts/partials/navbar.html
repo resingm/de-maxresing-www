@@ -1,0 +1,13 @@
+{{ with site.Menus.main }}
+    <nav class="nav" tabindex="-1" onclick="this.focus()">
+        <div class="container" tabindex="-1" onclick="this.focus()">
+            {{ range . }}
+                {{ if $.IsMenuCurrent .Menu . }}
+                    <a class="active {{ if .Params.pagename }} pagename {{ end }}" aria-current="page" href="{{ .URL }}">{{ .Name }}</a>
+                {{ else }}
+                    <a {{ if .Params.pagename }} class="pagename" {{ end }} href="{{ .URL }}">{{ .Name }}</a>
+                {{ end }}
+            {{ end }}
+        </div>
+    </nav>
+{{ end }}

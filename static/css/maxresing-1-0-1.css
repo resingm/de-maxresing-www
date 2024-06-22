@@ -1,0 +1,24 @@
+
+/* fonts */
+
+.pagename{
+  font-size: 22px;
+  top: 1px;
+  text-decoration: none;
+}
+
+/* images */
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.portrait {
+  border: 1px solid #fff;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
