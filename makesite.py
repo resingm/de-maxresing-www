@@ -4,6 +4,7 @@
 """
 
 from datetime import datetime
+from glob import glob
 
 import logging
 import os
@@ -31,16 +32,16 @@ class Page:
         self.fname: str = fname.replace(".md", ".html")
 
         # head
-        self.title: str = None
-        self.subtitle: str = None
+        self.title: str = ""
+        self.subtitle: str = ""
 
         # header
-        self.header_title: str = None
-        self.header_subtitle: str = None
-        self.header_content: str = None
+        self.header_title: str = ""
+        self.header_subtitle: str = ""
+        self.header_content: str = ""
 
         # body
-        self.body: str = None
+        self.body: str = ""
 
         if content:
             self.load(content)
@@ -120,6 +121,7 @@ def _write(path: str, content: str):
     :param path: File path
     :param content: Content to write to file
     """
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "wb") as f:
         b = content.encode(FILE_ENCODING)
         f.write(b)
@@ -128,10 +130,13 @@ def _write(path: str, content: str):
 def _read_folder(path: str):
     files = dict()
 
-    fs = [f for f in os.listdir(path)]
+    # fs = [f for f in os.listdir(path)]
+    fs = [f for f in glob(f"{path}/**", recursive=True, include_hidden=False)]
+    fs = filter(os.path.isfile, fs)
 
     for f in fs:
-        files[f] = _read(f"{path}/{f}")
+        fname = f.replace(path, "").lstrip("/")
+        files[fname] = _read(f)
 
     return files
 
@@ -194,7 +199,7 @@ def main():
 
     for p in pages:
         html = _render(base, head, p)
-        fname = f"{cfg.get('output')}/{p.fname}"
+        fname = os.path.join(cfg.get("output"), p.fname)
         _write(fname, html)
         logging.info(f"Rendered and saved {p.fname}")
 
