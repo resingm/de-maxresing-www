@@ -28,6 +28,8 @@ async def index(req: Request):
         "title": "Welcome!",
         "has_header": True,
     }
+    
+    context.update(conf.as_dict())
 
     return templates.TemplateResponse(
         request=req,

@@ -1,14 +1,10 @@
 {% extends "base.html.jinja" %}
 
-{% block header %}
+{% block content %}
 
-# TODO: Make the image configurable
-# TODO: Make the text configurable
-# TODO: Make the header text as a frontmatter text
-# TODO: Generate the rest of the web page based on markdown.
+<img class="portrait rounded-circle" src="{{ dir.static }}/img/{{ landing.portrait }}" focusable="false" width="180" />
 
-<img class="portrait rounded-circle" src="static/img/portrait00.png" focusable="false" width="180" />
+<h1 class="tc">{{ landing.name }}</h1>
+<h5 class="tc">Mail: {{ landing.mail }}</h5>
 
-<h1 class="tc">Max Resing</h1>
-<h5 class="tc">Mail: contact (at) maxresing.de</h5>
 {% endblock %}
