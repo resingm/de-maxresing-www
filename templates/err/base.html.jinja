@@ -1,0 +1,21 @@
+{% extends "base.html.jinja" %}
+
+{% block main %}
+
+<header class="header bg-black white">
+    <div class="container">
+        <div class="row">
+            <div class="col c12">
+                <h1>
+                    {{ status.code }}
+                    {% if status.name %} - {{ status.name }} {% endif %}
+                </h1>
+                <h3>{{ status.message }}</h3>
+                <img src="{{ base_url }}/{{ dir.static }}/img/err/{{ status.code }}.png" focusable="false" width="400" />
+                <small>* Image generated with Microsoft Copilot</small>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% endblock %}

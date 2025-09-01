@@ -1,13 +1,11 @@
-<!-- title: maxresing.de -->
-<!-- subtitle: Contact -->
-<!-- header.subtitle: contact (at) maxresing.de -->
-
-!> header.start
-
-Feel free to contact me, I am happy to get in touch with you.
-
-!> header.end
-
+---
+public: True
+title: Contact
+header:
+    subtitle: contact (at) maxresing.de
+    content:
+        Feel free to contact me, I am happy to get in touch with you.
+---
 
 # Contact
 

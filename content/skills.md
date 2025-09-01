@@ -1,21 +1,20 @@
-<!-- title: maxresing.de -->
-<!-- subtitle: Knowledge, Skills & Technology -->
-<!-- header.title: Knowledge, Skills & Technology -->
-<!-- header.subtitle: A few words beforehand... -->
+---
+public: true
+title: Skills
+header:
+    title: "Knowledge, Skills & Technology"
+    subtitle: "A few words beforehand..."
+    content:
+        This page should briefly introduce a few off my skills and my technical
+        knowledge. Please keep in mind that I am a passionate learner who teaches
+        himself new things every single day.
 
-!> header.start
+        I decided to exclude technology, that I take for granted. This includes but is 
+        not limited to HTML, CSS, SQL, programming paradigms as OOP, FP, basics of
+        system administration & networking, common protocols, operating systems, user &
+        permission management,...
 
-This page should briefly introduce a few off my skills and my technical
-knowledge. Please keep in mind that I am a passionate learner who teaches
-himself new things every single day.
-
-I decided to exclude technology, that I take for granted. This includes but is 
-not limited to HTML, CSS, SQL, programming paradigms as OOP, FP, basics of
-system administration & networking, common protocols, operating systems, user &
-permission management,...
-
-!> header.end
-
+---
 
 # Languages
 

@@ -4,7 +4,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
-    {{ page_name }} | {% if title %}{{ title }}{% if subtitle %}- {{ subtitle }}{% endif %}{% endif %}
+    {{ base_name }} | {% if title %}{{ title }}{% if subtitle %}- {{ subtitle }}{% endif %}{% endif %}
   </title>
   <link rel="shortcut icon" href="{{ base_url }}/static/favicon.ico">
   <link rel="stylesheet" href="{{ base_url }}/static/css/min-1-5-0.css">
@@ -14,19 +14,9 @@
 
 <body>
   {% include 'nav.html.jinja' %}
+
+  {% block main %}{% endblock %}
   
-  {% if has_header %}
-    {% include 'header.html.jinja' %}
-  {% endif %}
-
-  <main class="container">
-    <div class="row">
-      <div class="col c12">
-        {% block content %}{% endblock %}
-      </div>
-    </div>
-  </main>
-
   {% include 'footer.html.jinja' %}
 
 </body>

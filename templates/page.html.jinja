@@ -1,0 +1,17 @@
+{% extends "base.html.jinja" %}
+
+{% block main %}
+
+{% if header %}
+  {% include 'header.html.jinja' %}
+{% endif %}
+
+<main class="container">
+<div class="row">
+  <div class="col c12">{{ content | safe }}</div>
+</div>
+</main>
+
+{% endblock %}
+
+

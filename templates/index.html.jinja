@@ -1,10 +1,44 @@
 {% extends "base.html.jinja" %}
 
-{% block content %}
+{% block main %}
 
-<img class="portrait rounded-circle" src="{{ dir.static }}/img/{{ landing.portrait }}" focusable="false" width="180" />
+<header class="header bg-black white">
+    <div class="container">
+        <div class="row">
+            <div class="col c12">
+                <img class="portrait rounded-circle" src="{{ dir.static }}/img/{{ portrait }}" focusable="false" width="180" />
+                <h1 class="tc">{{ name }}</h1>
+                <h5 class="tc">Mail: {{ mail }}</h5>
+                <hr>
+                <p>{{ content | safe }}</p>
+            </div>
+        </div>
+    </div>
+</header>
 
-<h1 class="tc">{{ landing.name }}</h1>
-<h5 class="tc">Mail: {{ landing.mail }}</h5>
+
+<main class="container">
+    <div class="row">
+        <h1>Announcements</h1>
+
+        {% for post in featured %}
+            <div>
+                <h3><a href="/blog/{{ post.slug }}"><em>{{ post.date }}</em> | {{ post.title}}</a></h3>
+                <p>{{ post.header }}</p>
+                <a href="/blog/{{ post.slug }}">Read more!</a>
+                <hr>
+            </div>
+        {% endfor %}
+
+        <h2>More Posts</h2>
+        {% for post in others %}
+            <a href="/blog/{{ post.slug }}"><em>{{ post.date }}</em> | {{ post.title }}</a>
+            <br>
+        {% endfor %}
+
+        <!-- TODO: Use templating to insert announcements dynamically -->
+        <!-- <div class="col c12">{{ content | safe }}</div>-->
+    </div>
+</main>
 
 {% endblock %}
