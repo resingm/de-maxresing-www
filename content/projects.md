@@ -1,17 +1,16 @@
-<!-- title: maxresing.de -->
-<!-- subtitle: Projects -->
-<!-- header.title: My Projects -->
-<!-- header.subtitle: The tip of the iceberg... -->
-
-!> header.start
-
-Here you can see a very brief selection of the projects I have worked on.
-Of course, this is just the tip of the iceberg. If you look for all my
-contributions, I refer to my [Codeberg](https://codeberg.org/resingm)
-and [GitHub](https://github.com/resingm) repositories.
-
-!> header.end
-
+---
+public: true
+title: Projects
+header:
+    title: "My Projects"
+    subtitle: "The tip of the iceberg..."
+    content:
+        Here you can see a very brief selection of the projects I have worked on
+        and being involved with. This illustrates just a short selection
+        Of course, this is just the tip of the iceberg. If you look for all my
+        contributions, I refer to my [Codeberg](https://codeberg.org/resingm)
+        and [GitHub](https://github.com/resingm) repositories.
+---
 
 # DNS Resilience Dashboard
 

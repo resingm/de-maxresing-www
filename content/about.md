@@ -1,5 +1,7 @@
-<!-- title: maxresing.de -->
-<!-- subtitle: About -->
+---
+public: True
+title: About
+---
 
 # About
 

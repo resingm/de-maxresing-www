@@ -1,13 +1,12 @@
-<!-- title: maxresing.de -->
-<!-- subtitle: -->
-<!-- header.title: Netscout, Arbor and I -->
-<!-- header.subtitle: My new position at Netscout ASERT/Arbor -->
-
-!> header.start
-
-After my summer internship at Netscout ASERT ended, I was approached to consider a longer-term commitment with the ASERT (former Arbor Networks) team. After thinking through this offer, I decided to agree to this opportunity. In early November, we arranged the contract details and I signed in restrospect for November 01. Since then, I am a research analyst in part-time. I support the ASERT team which is mainly focussed on identifying and mitigating the DDoS threat on the Internet.
-
-!> header.end
+---
+public: true
+date: 2022-11-01
+title: Netscout, Arbor, and I
+subtitle: My new position at NETSCOUT ASERT, former Arbor Networks
+header:
+    content: |
+        After my summer internship at Netscout ASERT ended, I was approached to consider a longer-term commitment with the ASERT (former Arbor Networks) team. After thinking through this offer, I decided to agree to this opportunity. In early November, we arranged the contract details and I signed in restrospect for November 01. Since then, I am a research analyst in part-time. I support the ASERT team which is mainly focussed on identifying and mitigating the DDoS threat on the Internet.
+---
 
 My summer internship at Netscout ended as planned after just four months on October 31, 2022. It was a phenomenal learning experience and even ended with two "big bangs".
 

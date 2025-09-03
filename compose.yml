@@ -1,0 +1,11 @@
+services:
+  maxresing_de:
+    build: .
+    container_name: maxresing_de
+    networks:
+      - gateway_web
+    
+
+networks:
+  gateway_web:
+    external: true

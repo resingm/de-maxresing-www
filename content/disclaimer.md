@@ -1,5 +1,7 @@
-<!-- title: maxresing.de -->
-<!-- subtitle: Disclaimer -->
+---
+public: True
+title: Disclaimer
+---
 
 # Imprint/Disclaimer
 
