@@ -4,4 +4,5 @@ jinja2
 markdown2
 python-dotenv
 requests
-uvicorn
+uvicorn[standard]
+
