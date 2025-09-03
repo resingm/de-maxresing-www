@@ -3,7 +3,7 @@ services:
     build: .
     container_name: maxresing_de
     networks:
-      - gateway_web
+      - proxy_gateway_web
     
 
 networks:
