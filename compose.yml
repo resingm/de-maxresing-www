@@ -7,5 +7,5 @@ services:
     
 
 networks:
-  gateway_web:
+  proxy_gateway_web:
     external: true
