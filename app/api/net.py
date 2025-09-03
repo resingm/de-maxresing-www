@@ -5,7 +5,7 @@ from fastapi import APIRouter
 from fastapi.requests import Request
 from fastapi.responses import PlainTextResponse
 
-from model import net
+from app.model import net
 
 MAX_REQ_N = 100000
 

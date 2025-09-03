@@ -8,11 +8,11 @@ from fastapi.staticfiles import StaticFiles
 # from frontmatter import Frontmatter
 # from markdown2 import markdown
 
-import conf
+from app import conf
 
-from api import net
-from model import blogs
-from view import html
+from app.api import net
+from app.model import blogs
+from app.view import html
 
 _debug = False
 _version = (0, 1, 0)

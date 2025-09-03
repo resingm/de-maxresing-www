@@ -1,13 +1,13 @@
 import os
 
+import requests
 from fastapi.requests import Request
 from fastapi.responses import HTMLResponse
 from fastapi import templating
 from frontmatter import Frontmatter
 from markdown2 import markdown
-import requests
 
-import conf
+from app import conf
 
 templates = templating.Jinja2Templates(directory=conf.TEMPLATES)
 
